@@ -46,7 +46,7 @@ switch (input)
 
         if (int.TryParse(multiplyNumber1, out int multiNumOne) && int.TryParse(multiplyNumber2, out int multiNumTwo))
         {
-            Console.Write($"{multiplyNumber1} - {multiplyNumber2} = ");
+            Console.Write($"{multiplyNumber1} * {multiplyNumber2} = ");
             Console.Write(calculator.Multiply(multiNumOne, multiNumTwo));
         }
         else
